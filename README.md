@@ -11,10 +11,10 @@ The goal is not to provide a state-of-the-art or highly optimized VRP solver. In
 
 The implementation includes three heuristic approaches for constructing or improving VRP solutions:
 
-* **Nearest Neighbour Heuristic** — builds routes by repeatedly selecting the closest unvisited customer.
-* **Clarke & Wright Savings Algorithm** — constructs routes by combining routes based on the calculated savings.
-* **Insertion Heuristic** — improves existing solutions by inserting customers into positions that minimize the additional routing cost.
+* **Nearest Neighbour Heuristic**: builds routes by repeatedly selecting the closest unvisited customer.
+* **Clarke & Wright Savings Algorithm**: constructs routes by combining routes based on the calculated savings.
+* **Insertion Heuristic**: improves existing solutions by inserting customers into positions that minimize the additional routing cost.
 
-The repository is intended primarily for learning, experimentation, and demonstrating the underlying ideas rather than competing with mature VRP libraries or production-grade solvers.
+The repository is intended primarily for learning, experimentation, and demonstrating the underlying ideas rather than competing with mature VRP libraries or production grade solvers.
 
 Feel free to explore the code, experiment with it, and suggest improvements or alternative approaches.
