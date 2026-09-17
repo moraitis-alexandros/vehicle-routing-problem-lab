@@ -9,6 +9,11 @@ The project was created to accompany a related article for Optimization4All Comm
 
 The goal is not to provide a state-of-the-art or highly optimized VRP solver. Instead, the implementation focuses on keeping the code simple, readable, and easy to experiment with. By avoiding external libraries and keeping the implementation relatively straightforward, the algorithm can be easily adapted to specific requirements or extended with additional constraints and optimization techniques.
 
+Three heuristic methods were used:
+Nearest Neighbour Heuristic
+Clarke & Wright Savings Algorithm
+Insertion Heuristic (upon existing solutions)
+
 The repository is intended primarily for learning, experimentation, and demonstrating the underlying ideas rather than competing with mature VRP libraries or production-grade solvers.
 
 Feel free to explore the code, experiment with it, and suggest improvements or alternative approaches.
